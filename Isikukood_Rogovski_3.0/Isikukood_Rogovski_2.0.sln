@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Isikukood_Rogovski_2.0", "Isikukood_Rogovski_2.0\Isikukood_Rogovski_2.0.pyproj", "{3E3F57E8-14CF-43D4-BA0A-A7CBCDED4BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E3F57E8-14CF-43D4-BA0A-A7CBCDED4BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3F57E8-14CF-43D4-BA0A-A7CBCDED4BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B19DBF0-C260-4C8D-8504-3EDC7262797C}
+	EndGlobalSection
+EndGlobal
