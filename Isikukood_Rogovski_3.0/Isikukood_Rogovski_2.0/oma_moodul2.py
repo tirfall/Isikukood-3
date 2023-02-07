@@ -13,6 +13,7 @@ def pikkus(ikood:str)->bool:
 def esimine(ikood:str)->str:
     
     ikood_list=list(map(int,ikood)) #[1,2,...]
+    
     if ikood_list[0] in [1,3,5]:
         s="mees"
     elif ikood_list[0] in [2,4,6]:
@@ -88,7 +89,7 @@ def kontrollnr(ikood:str)->int:
     ik_list=list(map(int,ik_list))
     summa=0
     for i in range (0,10,1):
-        summa+=ik_list[i]+astme1[i]
+        summa+=ik_list[i]*astme1[i]
     s=(summa//11)*11
     jaak=summa-s
     if jaak==int(ik_list[10]):
@@ -97,7 +98,7 @@ def kontrollnr(ikood:str)->int:
         return 0
     else:
         for i in range(0,10,1):
-            summa+=ik_list[i]+astme2[i]
+            summa+=ik_list[i]*astme2[i]
         s=(summa//11)*11
         jaak=summa-s
         return jaak
